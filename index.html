@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AURA ONE — El sonido en su forma más pura</title>
+  <meta name="description" content="Audífonos inalámbricos de diadema con cancelación de ruido activa, 40 horas de batería y audio Hi-Res.">
+
+  <!-- Bootstrap 5.3 (CDN oficial) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Bootstrap Icons (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Tipografía Inter (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-premium text-deep">
+
+  <!-- INICIO NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4 text-deep" href="#hero">AURA ONE</a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto mb-3 mb-lg-0 gap-lg-3">
+          <li class="nav-item"><a class="nav-link text-deep" href="#caracteristicas">Características</a></li>
+          <li class="nav-item"><a class="nav-link text-deep" href="#galeria">Galería</a></li>
+          <li class="nav-item"><a class="nav-link text-deep" href="#especificaciones">Especificaciones</a></li>
+        </ul>
+        <a href="tienda.html" class="btn btn-cyber btn-sm px-3 rounded-pill">Comprar ahora</a>
+      </div>
+    </div>
+  </nav>
+  <!-- FIN NAVBAR -->
+
+  <!-- INICIO HERO -->
+  <header id="hero" class="py-5" style="margin-top: 72px;">
+    <div class="container py-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h1 class="display-2 fw-bolder lh-1 mb-4">El sonido en su forma más pura.</h1>
+          <p class="fs-5 text-secondary mb-4 pe-lg-5">
+            La cancelación de ruido activa adaptativa lee tu entorno 200 veces por segundo y lo silencia,
+            para que solo quede la música.
+          </p>
+          <a href="tienda.html" class="btn btn-cyber btn-lg px-5 py-3 rounded-pill">
+            Comprar ahora — $599.00
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-glow rounded-4 p-4 p-lg-5">
+            <img id="productoImagen"
+                 src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80"
+                 class="img-fluid rounded-4 w-100"
+                 alt="Audífonos AURA ONE de diadema vistos de frente">
+          </div>
+
+          <div class="mt-4 text-center">
+            <p class="fw-semibold mb-3">Elige tu color</p>
+
+            <div class="d-flex justify-content-center gap-3">
+              <button type="button"
+                      class="btn btn-outline-dark color-option active"
+                      data-color="negro">
+                Negro
+              </button>
+
+              <button type="button"
+                      class="btn btn-outline-dark color-option"
+                      data-color="blanco">
+                Blanco
+              </button>
+
+              <button type="button"
+                      class="btn btn-outline-dark color-option"
+                      data-color="azul">
+                Azul
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- FIN HERO -->
+
+  <!-- INICIO CARACTERISTICAS -->
+  <section id="caracteristicas" class="py-5">
+    <div class="container py-5">
+      <div class="row row-cols-1 row-cols-md-3 g-5">
+        <div class="col">
+          <div class="card border-0 bg-transparent h-100">
+            <div class="card-body px-0">
+              <i class="bi bi-battery-charging fs-1 text-cyber"></i>
+              <h3 class="h5 fw-bold mt-3">40 horas de batería</h3>
+              <p class="text-secondary mb-0">Una carga completa cubre una semana de trayectos y un vuelo transatlántico.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 bg-transparent h-100">
+            <div class="card-body px-0">
+              <i class="bi bi-soundwave fs-1 text-cyber"></i>
+              <h3 class="h5 fw-bold mt-3">Cancelación inteligente</h3>
+              <p class="text-secondary mb-0">Seis micrófonos ajustan el nivel de ANC según el ruido que te rodea.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 bg-transparent h-100">
+            <div class="card-body px-0">
+              <i class="bi bi-music-note-beamed fs-1 text-cyber"></i>
+              <h3 class="h5 fw-bold mt-3">Audio Hi-Res</h3>
+              <p class="text-secondary mb-0">Drivers de 40 mm con certificación Hi-Res y códec LDAC de 24 bits.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FIN CARACTERISTICAS -->
+
+  <!-- INICIO GALERIA -->
+  <section id="galeria" class="py-5">
+    <div class="container py-5">
+      <div id="galeriaCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
+          <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+          <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+        </div>
+
+        <div class="carousel-inner rounded-4">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=1600&q=80"
+                 class="d-block w-100 rounded-4" alt="AURA ONE apoyados sobre una superficie clara">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1628793913311-36c4d2d72e6c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                 class="d-block w-100 rounded-4" alt="Vista lateral de los audífonos AURA ONE">
+          </div>
+          <div class="carousel-item">
+            <img src="https://plus.unsplash.com/premium_photo-1777857492136-4248c6a4be07?q=80&w=1129&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                 class="d-block w-100 rounded-4" alt="Persona usando los audífonos AURA ONE en la calle">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- FIN GALERIA -->
+
+  <!-- INICIO ESPECIFICACIONES -->
+  <section id="especificaciones" class="py-5">
+    <div class="container py-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h2 class="display-5 fw-bolder lh-1 mb-4">Especificaciones</h2>
+          <ul class="list-unstyled fs-6 text-secondary mb-4">
+            <li class="border-bottom py-3 d-flex justify-content-between"><span>Drivers</span><span class="text-deep fw-semibold">40 mm, Hi-Res</span></li>
+            <li class="border-bottom py-3 d-flex justify-content-between"><span>Batería</span><span class="text-deep fw-semibold">40 h con ANC</span></li>
+            <li class="border-bottom py-3 d-flex justify-content-between"><span>Conexión</span><span class="text-deep fw-semibold">Bluetooth 5.3 · LDAC</span></li>
+            <li class="border-bottom py-3 d-flex justify-content-between"><span>Peso</span><span class="text-deep fw-semibold">248 g</span></li>
+          </ul>
+          <a href="tienda.html" class="btn btn-cyber btn-lg px-5 py-3 rounded-pill">Comprar ahora — $299 USD</a>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://images.unsplash.com/photo-1628793913311-36c4d2d72e6c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+               class="img-fluid rounded-4 w-100" alt="Detalle de la diadema y las almohadillas de los AURA ONE">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FIN ESPECIFICACIONES -->
+
+  <!-- INICIO FOOTER -->
+  <footer class="text-white-50 py-5" style="background-color: var(--deep-gray);">
+    <div class="container py-3">
+      <div class="row gy-4 align-items-center">
+        <div class="col-md-6">
+          <span class="fw-bold fs-5 text-white">AURA ONE</span>
+        </div>
+
+      </div>
+      <hr class="border-secondary my-4">
+      <p class="small mb-0">© 2026 AURA ONE. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <!-- FIN FOOTER -->
+
+  <!-- Bootstrap 5.3 JS bundle (CDN oficial) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

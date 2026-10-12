@@ -1,0 +1,61 @@
+/* Variables de color personalizadas */
+:root {
+    --premium-light: #f8f9fa;
+    --deep-gray: #212529;
+    --cyber-orange: #ff6b35;
+    --cyber-orange-dark: #e85520;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    background-color: var(--premium-light);
+    color: var(--deep-gray);
+}
+
+/* Scroll suave para los enlaces del menú, con desfase por el navbar fixed-top */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 72px;
+}
+
+.text-deep { color: var(--deep-gray); }
+.text-cyber { color: var(--cyber-orange); }
+.bg-premium { background-color: var(--premium-light); }
+
+/* Botón de acento único para todos los CTA "Comprar ahora" */
+.btn-cyber {
+    background-color: var(--cyber-orange);
+    border: 1px solid var(--cyber-orange);
+    color: #fff;
+    font-weight: 600;
+    transition: background-color .25s ease, transform .25s ease, box-shadow .25s ease;
+}
+.btn-cyber:hover,
+.btn-cyber:focus {
+    background-color: var(--cyber-orange-dark);
+    border-color: var(--cyber-orange-dark);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 .5rem 1.25rem rgba(255, 107, 53, .35);
+}
+
+/* Transiciones suaves de hover en enlaces de navegación y pie de página */
+.nav-link,
+.footer-link {
+    transition: color .25s ease, opacity .25s ease;
+}
+.nav-link:hover,
+.nav-link:focus { color: var(--cyber-orange); }
+.footer-link:hover,
+.footer-link:focus { color: var(--cyber-orange); opacity: 1; }
+
+/* Degradado suave de fondo para la imagen del hero */
+.hero-glow {
+    background: radial-gradient(circle at 50% 50%, rgba(255, 107, 53, .18) 0%, rgba(255, 107, 53, 0) 68%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .btn-cyber { transition: none; }
+    .btn-cyber:hover { transform: none; }
+}
